@@ -35,7 +35,7 @@ export default function AboutPage() {
             <span style={{ color: "var(--clr-accent)" }}>Engineered for Excellence</span>
           </h1>
           <p style={{ fontSize: "1.05rem", color: "rgba(255,255,255,0.6)", maxWidth: "560px", lineHeight: 1.8, marginTop: "1rem" }}>
-            Since {SITE.established}, Sri Bhairaveshwara Power Control has been a trusted manufacturer of industrial electrical control panels in Bangalore.
+            Sri Bhairaveshwara Power Control has been a trusted manufacturer of industrial electrical control panels in Bangalore.
           </p>
         </div>
       </section>

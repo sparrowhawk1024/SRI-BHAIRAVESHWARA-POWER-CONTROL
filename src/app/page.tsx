@@ -84,7 +84,7 @@ function Hero() {
         <div className={styles.heroLeft}>
           <div className={styles.heroBadge}>
             <span className={styles.heroBadgeDot} />
-            Since {SITE.established} · Bengaluru, India
+            Bengaluru, India
           </div>
 
           <h1 className={styles.heroHeading}>
@@ -194,7 +194,7 @@ function AboutSection() {
               <Image src="/logo.jpeg" alt="SBPC" width={80} height={80} className={styles.aboutCircleImg} />
               <div>
                 <div style={{ fontFamily: "var(--font-heading)", fontWeight: 800, fontSize: "1rem", color: "var(--clr-text)" }}>Sri Bhairaveshwara</div>
-                <div style={{ fontSize: "0.75rem", color: "var(--clr-text-muted)", marginTop: "0.15rem" }}>Power Control · Est. {SITE.established}</div>
+                <div style={{ fontSize: "0.75rem", color: "var(--clr-text-muted)", marginTop: "0.15rem" }}>Power Control</div>
                 <div style={{ display: "flex", gap: "0.4rem", flexWrap: "wrap", marginTop: "0.6rem" }}>
                   {["ISO 9001", "BIS", "CPRI"].map((c) => (
                     <span key={c} style={{ fontSize: "0.65rem", fontWeight: 700, padding: "0.15rem 0.5rem", background: "var(--clr-primary-soft)", color: "var(--clr-primary)", borderRadius: "4px" }}>{c}</span>
@@ -205,10 +205,8 @@ function AboutSection() {
             {/* Stat cards */}
             <div className={styles.aboutImgCardsRow}>
               {[
-                { icon: "⚡", label: "Established", value: SITE.established },
                 { icon: "🏆", label: "Certifications", value: "ISO · BIS" },
                 { icon: "🏭", label: "Location", value: "Bangalore" },
-                { icon: "👷", label: "Experience", value: "20+ Years" },
               ].map((item) => (
                 <div key={item.label} className={styles.aboutImgCard}>
                   <div className={styles.aboutImgIcon}>{item.icon}</div>

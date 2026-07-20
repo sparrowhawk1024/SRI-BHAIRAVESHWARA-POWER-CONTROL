@@ -3,7 +3,6 @@ export const SITE = {
   shortName: "SBPC",
   tagline: "Powering Industries with Reliable Electrical Control Solutions",
   proprietor: "Sri Lakshmi",
-  established: "2008",
   phone1: "9986418219",
   phone2: "8050807876",
   phone1Display: "+91 99864 18219",
