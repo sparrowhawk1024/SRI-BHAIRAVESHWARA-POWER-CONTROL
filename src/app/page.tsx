@@ -169,7 +169,6 @@ function AboutSection() {
                 "In-house design, fabrication, wiring and testing",
                 "Compliant with IS 8623 / IEC 61439 standards",
                 "Tailored solutions for power, process and infrastructure",
-                "Over 20 years of manufacturing excellence",
               ].map((item) => (
                 <li key={item} className={styles.checkItem}>
                   <span className={styles.checkIcon}>✓</span>
