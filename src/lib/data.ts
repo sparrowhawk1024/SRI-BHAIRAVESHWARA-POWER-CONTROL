@@ -218,25 +218,15 @@ export const PRODUCTS = [
 ];
 
 export const WHY_US = [
-  { icon: "🛡️", title: "Engineering-First", desc: "In-house design engineering with rigorous quality review at every stage of manufacturing." },
-  { icon: "🏆", title: "Certified Quality", desc: "Panels built to IS/IEC standards with routine test reports and type test certification." },
+  { icon: "🛡️", title: "Engineering-First", desc: "Design engineering with rigorous quality review at every stage of manufacturing." },
   { icon: "⏱️", title: "On-Time Delivery", desc: "Streamlined production planning ensures your panels are delivered on schedule, every time." },
   { icon: "🔧", title: "Lifetime Support", desc: "Dedicated service team for AMC, breakdown support, upgrades and spare parts supply." },
-  { icon: "⚡", title: "Custom Solutions", desc: "Tailored panel designs to meet your exact specifications and industry requirements." },
-  { icon: "🏭", title: "Complete In-House", desc: "Design, fabrication, wiring, testing and commissioning — all under one roof in Bangalore." },
 ];
 
 export const STATS = [
-  { value: "20+", label: "Years of Excellence" },
   { value: "500+", label: "Panels Delivered" },
   { value: "200+", label: "Clients Served" },
   { value: "24/7", label: "Support Available" },
 ];
 
-export const CERTIFICATIONS = [
-  "ISO 9001:2015",
-  "BIS Certified",
-  "CPRI Tested",
-  "IS 8623 Compliant",
-  "IEC 61439 Standards",
-];
+export const CERTIFICATIONS: string[] = [];

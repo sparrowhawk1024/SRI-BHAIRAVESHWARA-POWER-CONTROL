@@ -26,11 +26,6 @@ export default function Footer() {
             <p className={styles.tagline}>
               Engineering trusted electrical control solutions for industries — from panels to plant-scale automation.
             </p>
-            <div className={styles.certBadges}>
-              {["ISO 9001", "BIS", "CPRI", "IS/IEC"].map((cert) => (
-                <span key={cert} className={styles.cert}>{cert}</span>
-              ))}
-            </div>
           </div>
 
           {/* Quick Links */}

@@ -91,15 +91,6 @@ export default async function ProductPage({ params }: Props) {
               ))}
             </div>
 
-            <h2 className={styles.sectionHeading}>Standards & Compliance</h2>
-            <div className={styles.standards}>
-              {product.standards.map((s) => (
-                <div key={s} className={styles.standardItem}>
-                  <span>🏆</span>
-                  <span>{s}</span>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Right sidebar */}
@@ -136,14 +127,7 @@ export default async function ProductPage({ params }: Props) {
               <div className={styles.companyCardIcon}>🏭</div>
               <div>
                 <div className={styles.companyCardTitle}>Made in Bangalore</div>
-                <div className={styles.companyCardText}>Designed, fabricated & tested at our Begur facility.</div>
-              </div>
-            </div>
-            <div className={styles.companyCard}>
-              <div className={styles.companyCardIcon}>✅</div>
-              <div>
-                <div className={styles.companyCardTitle}>IS/IEC Compliant</div>
-                <div className={styles.companyCardText}>All panels come with test reports & certificates.</div>
+                <div className={styles.companyCardText}>Designed, assembled & tested at our Begur facility.</div>
               </div>
             </div>
           </div>

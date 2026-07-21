@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { SITE, CERTIFICATIONS, WHY_US } from "@/lib/data";
+import { SITE, WHY_US } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Sri Bhairaveshwara Power Control — a leading manufacturer of electrical control panels in Bangalore with over 20 years of engineering excellence.",
+  description: "Learn about Sri Bhairaveshwara Power Control — a leading manufacturer of electrical control panels in Bangalore with engineering excellence.",
 };
 
 export default function AboutPage() {
@@ -58,7 +58,7 @@ export default function AboutPage() {
                   Located at <strong>Begur, Bangalore</strong>, our facility houses an experienced team of engineers and highly skilled technicians who bring decades of combined expertise to every project. We serve medium and major industries, institutions, and commercial establishments across Karnataka and beyond.
                 </p>
                 <p style={{ fontSize: "1rem", color: "var(--clr-text-muted)", lineHeight: 1.85 }}>
-                  Our in-house manufacturing process — from design and fabrication to wiring, testing and commissioning — ensures complete quality control at every stage. Every panel we deliver meets IS/IEC standards and comes with full test documentation.
+                  Our manufacturing process — from design to wiring, assembly, testing and commissioning — ensures complete quality control at every stage. Every panel we deliver comes with full test documentation.
                 </p>
               </div>
             </div>
@@ -85,35 +85,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Certifications */}
-      <section className="section">
-        <div className="container">
-          <div className="section-header center">
-            <span className="section-label">Standards & Certifications</span>
-            <h2 className="section-title">
-              Quality You Can <span className="highlight">Rely On</span>
-            </h2>
-          </div>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center", marginTop: "1rem" }}>
-            {CERTIFICATIONS.map((c) => (
-              <div key={c} style={{
-                padding: "1.25rem 2rem",
-                background: "var(--clr-primary-soft)",
-                border: "1px solid rgba(11,61,145,0.15)",
-                borderRadius: "var(--radius-lg)",
-                fontWeight: 700,
-                fontSize: "0.9rem",
-                color: "var(--clr-primary)",
-                display: "flex",
-                alignItems: "center",
-                gap: "0.5rem"
-              }}>
-                🏆 {c}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="section" style={{ background: "var(--clr-bg-alt)" }}>

@@ -203,7 +203,7 @@ export default function ContactPage() {
                     ))}
                   </address>
                   <a
-                    href="https://maps.google.com/?q=Begur,+Bangalore+560068"
+                    href="https://www.google.com/maps/place/12%C2%B050'28.8%22N+77%C2%B036'51.3%22E/@12.8413439,77.6116829,17z/data=!3m1!4b1!4m4!3m3!8m2!3d12.8413439!4d77.6142578?hl=en&entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.mapLink}
@@ -279,7 +279,7 @@ export default function ContactPage() {
               <div className={styles.mapLabelAddr}>Begur, Bangalore - 560068</div>
             </div>
             <a
-              href="https://maps.google.com/?q=Begur,+Bangalore+560068"
+              href="https://www.google.com/maps/place/12%C2%B050'28.8%22N+77%C2%B036'51.3%22E/@12.8413439,77.6116829,17z/data=!3m1!4b1!4m4!3m3!8m2!3d12.8413439!4d77.6142578?hl=en&entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary btn-sm"
@@ -289,7 +289,7 @@ export default function ContactPage() {
           </div>
         </div>
         <iframe
-          src="https://maps.google.com/maps?q=Begur,Bangalore,560068&output=embed&z=14"
+          src="https://maps.google.com/maps?q=12.8413439,77.6142578&output=embed&z=17"
           width="100%"
           height="400"
           style={{ border: 0, display: "block" }}

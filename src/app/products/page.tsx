@@ -75,11 +75,6 @@ export default function ProductsPage() {
                   </div>
                   <div className={styles.cardFooter}>
                     <span className={styles.cardLearn}>View Details →</span>
-                    <div className={styles.cardStandards}>
-                      {product.standards.map((s) => (
-                        <span key={s} className={styles.standardBadge}>{s}</span>
-                      ))}
-                    </div>
                   </div>
                 </Link>
               ))}

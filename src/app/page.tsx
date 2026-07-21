@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { SITE, PRODUCTS, WHY_US, CERTIFICATIONS } from "@/lib/data";
+import { SITE, PRODUCTS, WHY_US } from "@/lib/data";
 import styles from "./page.module.css";
 
 /* ── Scroll reveal hook ── */
@@ -113,12 +113,6 @@ function Hero() {
               Request a Quote
             </a>
           </div>
-
-          <div className={styles.heroCerts}>
-            {CERTIFICATIONS.map((c) => (
-              <div key={c} className={styles.heroCert}>{c}</div>
-            ))}
-          </div>
         </div>
 
         <div className={styles.heroRight}>
@@ -166,9 +160,9 @@ function AboutSection() {
             </p>
             <ul className={styles.aboutChecks}>
               {[
-                "In-house design, fabrication, wiring and testing",
-                "Compliant with IS 8623 / IEC 61439 standards",
-                "Tailored solutions for power, process and infrastructure",
+                "Wiring, assembly and commissioning",
+                "Quality control at every stage",
+                "Reliable electrical control solutions",
               ].map((item) => (
                 <li key={item} className={styles.checkItem}>
                   <span className={styles.checkIcon}>✓</span>
@@ -194,17 +188,12 @@ function AboutSection() {
               <div>
                 <div style={{ fontFamily: "var(--font-heading)", fontWeight: 800, fontSize: "1rem", color: "var(--clr-text)" }}>Sri Bhairaveshwara</div>
                 <div style={{ fontSize: "0.75rem", color: "var(--clr-text-muted)", marginTop: "0.15rem" }}>Power Control</div>
-                <div style={{ display: "flex", gap: "0.4rem", flexWrap: "wrap", marginTop: "0.6rem" }}>
-                  {["ISO 9001", "BIS", "CPRI"].map((c) => (
-                    <span key={c} style={{ fontSize: "0.65rem", fontWeight: 700, padding: "0.15rem 0.5rem", background: "var(--clr-primary-soft)", color: "var(--clr-primary)", borderRadius: "4px" }}>{c}</span>
-                  ))}
-                </div>
               </div>
             </div>
             {/* Stat cards */}
             <div className={styles.aboutImgCardsRow}>
               {[
-                { icon: "🏆", label: "Certifications", value: "ISO · BIS" },
+                { icon: "⚡", label: "Delivered", value: "500+ Panels" },
                 { icon: "🏭", label: "Location", value: "Bangalore" },
               ].map((item) => (
                 <div key={item.label} className={styles.aboutImgCard}>
