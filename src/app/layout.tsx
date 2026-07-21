@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Sri Bhairaveshwara Power Control",
   },
   description:
-    "Leading manufacturer of MCC, PCC, AMF, APFC, E-House, Synchronizing and LT control panels in Bangalore. Design, manufacture and commissioning of premium industrial electrical control solutions.",
+    "Specialist manufacturer of MCC, PCC, AMF, APFC, E-House, Synchronizing and LT control panels in Bangalore. Design, manufacture and commissioning of premium industrial electrical control solutions.",
   keywords:
     "MCC panel, PCC panel, AMF panel, APFC panel, electrical control panels, LT panels, E-House, feeder pillar, bus duct, power distribution, Bangalore, Karnataka",
   authors: [{ name: "Sri Bhairaveshwara Power Control" }],

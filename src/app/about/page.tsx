@@ -5,7 +5,7 @@ import { SITE, WHY_US } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Sri Bhairaveshwara Power Control — a leading manufacturer of electrical control panels in Bangalore with engineering excellence.",
+  description: "Learn about Sri Bhairaveshwara Power Control — a specialist manufacturer of electrical control panels in Bangalore with engineering excellence.",
 };
 
 export default function AboutPage() {
@@ -52,10 +52,10 @@ export default function AboutPage() {
               </h2>
               <div style={{ marginTop: "1.5rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
                 <p style={{ fontSize: "1rem", color: "var(--clr-text-muted)", lineHeight: 1.85 }}>
-                  <strong>Sri Bhairaveshwara Power Control</strong> is one of the leading manufacturers of electrical control panels in Bangalore. We specialize in the design, manufacture and commissioning of MCC, PCC, AMF, APFC panels, E-House containers, synchronizing panels, LT panels and switchboards.
+                  <strong>Sri Bhairaveshwara Power Control</strong> is a specialist manufacturer of electrical control panels in Bangalore. We specialize in the design, manufacture and commissioning of MCC, PCC, AMF, APFC panels, E-House containers, synchronizing panels, LT panels and switchboards.
                 </p>
                 <p style={{ fontSize: "1rem", color: "var(--clr-text-muted)", lineHeight: 1.85 }}>
-                  Located at <strong>Begur, Bangalore</strong>, our facility houses an experienced team of engineers and highly skilled technicians who bring decades of combined expertise to every project. We serve medium and major industries, institutions, and commercial establishments across Karnataka and beyond.
+                  Located at <strong>Begur, Bangalore</strong>, our facility houses an experienced team of engineers and highly skilled technicians. We serve medium and major industries, institutions, and commercial establishments across Karnataka and beyond.
                 </p>
                 <p style={{ fontSize: "1rem", color: "var(--clr-text-muted)", lineHeight: 1.85 }}>
                   Our manufacturing process — from design to wiring, assembly, testing and commissioning — ensures complete quality control at every stage. Every panel we deliver comes with full test documentation.
