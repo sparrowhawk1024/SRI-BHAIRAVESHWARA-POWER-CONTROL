@@ -193,7 +193,7 @@ function AboutSection() {
             {/* Stat cards */}
             <div className={styles.aboutImgCardsRow}>
               {[
-                { icon: "⚡", label: "Delivered", value: "500+ Panels" },
+                { icon: "👥", label: "Clients", value: "200+ Served" },
                 { icon: "🏭", label: "Location", value: "Bangalore" },
               ].map((item) => (
                 <div key={item.label} className={styles.aboutImgCard}>

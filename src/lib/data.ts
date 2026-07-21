@@ -224,7 +224,6 @@ export const WHY_US = [
 ];
 
 export const STATS = [
-  { value: "500+", label: "Panels Delivered" },
   { value: "200+", label: "Clients Served" },
   { value: "24/7", label: "Support Available" },
 ];
