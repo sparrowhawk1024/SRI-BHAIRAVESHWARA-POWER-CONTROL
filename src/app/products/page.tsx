@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { PRODUCTS } from "@/lib/data";
 import styles from "./products.module.css";
 
@@ -43,9 +44,22 @@ export default function ProductsPage() {
             <div className={styles.productsGrid}>
               {PRODUCTS.filter((p) => p.category === cat).map((product) => (
                 <Link key={product.slug} href={`/products/${product.slug}`} className={styles.productCard}>
-                  <div className={styles.cardIcon} style={{ background: `${product.color}18` }}>
-                    <span className={styles.cardIconEmoji}>{product.icon}</span>
-                  </div>
+                  {(product as { image?: string }).image ? (
+                    <div className={styles.cardImageBanner}>
+                      <Image
+                        src={(product as { image?: string }).image!}
+                        alt={product.name}
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className={styles.cardBannerImg}
+                      />
+                      <div className={styles.cardImageOverlay} />
+                    </div>
+                  ) : (
+                    <div className={styles.cardIcon} style={{ background: `${product.color}18` }}>
+                      <span className={styles.cardIconEmoji}>{product.icon}</span>
+                    </div>
+                  )}
                   <div className={styles.cardBody}>
                     <span className={styles.cardBadge}>{product.category}</span>
                     <h3 className={styles.cardName}>{product.name}</h3>

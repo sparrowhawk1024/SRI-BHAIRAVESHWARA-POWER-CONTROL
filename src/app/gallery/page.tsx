@@ -5,11 +5,16 @@ import Image from "next/image";
 import styles from "./gallery.module.css";
 
 const GALLERY_ITEMS = [
-  { id: 1, title: "MCC Panel", category: "Motor Control", src: "/gallery/gallery1.jpg" },
-  { id: 2, title: "Industrial Control Panel", category: "Power Distribution", src: "/gallery/gallery2.jpg" },
-  { id: 3, title: "PLC Automation System", category: "Automation", src: "/gallery/gallery3.jpg" },
-  { id: 4, title: "HT Switchgear", category: "Power Distribution", src: "/gallery/gallery4.jpg" },
-  { id: 5, title: "APFC Panel", category: "Power Quality", src: "/gallery/gallery5.jpg" },
+  { id: 1, title: "MCC Panel", category: "Motor Control", src: "/MCC pannel.jpeg" },
+  { id: 2, title: "Industrial Control Panel", category: "Power Distribution", src: "/industry controle panel.jpeg" },
+  { id: 3, title: "PLC Automation System", category: "Automation", src: "/plc panel.jpeg" },
+  { id: 4, title: "HT Switchgear", category: "Power Distribution", src: "/HT switch gear.jpg" },
+  { id: 5, title: "APFC Panel", category: "Power Quality", src: "/APFC panel.jpeg" },
+  { id: 6, title: "Power Distribution Board", category: "Power Distribution", src: "/-Power-Distribution-Board.jpg" },
+  { id: 7, title: "Bus Ducts", category: "Power Distribution", src: "/Bus_Ducts_.jpg" },
+  { id: 8, title: "Feeder Pillar Panel", category: "Power Distribution", src: "/feeder pillar.jpg" },
+  { id: 9, title: "E-House", category: "Specialized", src: "/E-House.jpeg" },
+  { id: 10, title: "LT Metering Panel", category: "Metering", src: "/lt meyeering panel.jpg" },
 ];
 
 const CATEGORIES = ["All", ...new Set(GALLERY_ITEMS.map((g) => g.category))];

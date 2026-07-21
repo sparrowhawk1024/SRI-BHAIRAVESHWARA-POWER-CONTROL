@@ -101,6 +101,7 @@ export default function Navbar() {
             </div>
 
             <Link href="/gallery" className={styles.navLink}>Gallery</Link>
+            <Link href="/brochure" className={styles.navLink}>Brochure</Link>
             <Link href="/contact" className={styles.navLink}>Contact</Link>
           </nav>
 
@@ -183,6 +184,7 @@ export default function Navbar() {
             )}
           </li>
           <li><Link href="/gallery" onClick={closeAll} className={styles.mobileLink}>Gallery</Link></li>
+          <li><Link href="/brochure" onClick={closeAll} className={styles.mobileLink}>Brochure</Link></li>
           <li><Link href="/contact" onClick={closeAll} className={styles.mobileLink}>Contact Us</Link></li>
         </ul>
 

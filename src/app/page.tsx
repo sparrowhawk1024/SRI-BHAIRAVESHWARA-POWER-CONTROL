@@ -245,9 +245,22 @@ function ProductsSection() {
             <Reveal key={p.slug} delay={(i % 5) * 80}>
               <div className={`${styles.productCard} card`}>
                 <Link href={`/products/${p.slug}`} className={styles.productLink}>
-                  <div className={styles.productIconWrap} style={{ background: `${p.color}20` }}>
-                    <span className={styles.productIcon}>{p.icon}</span>
-                  </div>
+                  {(p as { image?: string }).image ? (
+                    <div className={styles.productImgWrap}>
+                      <Image
+                        src={(p as { image?: string }).image!}
+                        alt={p.name}
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                        className={styles.productImg}
+                      />
+                      <div className={styles.productImgOverlay} />
+                    </div>
+                  ) : (
+                    <div className={styles.productIconWrap} style={{ background: `${p.color}20` }}>
+                      <span className={styles.productIcon}>{p.icon}</span>
+                    </div>
+                  )}
                   <span className={styles.productBadge}>{p.category}</span>
                   <h3 className={styles.productName}>{p.name}</h3>
                   <p className={styles.productTagline}>{p.tagline}</p>
